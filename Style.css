@@ -1,11 +1,9 @@
 body {
     background-color: lightblue;
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link{
-    color: #000000;
+    color: #1a767a;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -15,33 +13,52 @@ body {
 .navbar-dark .navbar-brand {
     font-size: 30px;
     color: #000000;
+    font-weight: bold;
 }
 
 .nav-link {
-    font-size: 30px;
-}
-
-.content {
-    margin-top: 17px;
-    margin-bottom: 35px;
-}
-
-h1 {
-    font-size: 40px;
+    font-size: 35px;
+    font-weight: bold;
 }
 
 p {
     font-size: 22px;
-    text-align: center;
 }
 
-.parallax {
-    height: 59vw;
-    background-image: url('images/banner-1544x500.png');
+.rounded {
+    height: 100%;
+    width: 100%;
+}
+
+.lax {
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 10%;
+}
+
+.parallax1 {
+    height: 80%;
+    background-image: url('images/clouds-cold-dark-540518.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     color: white;
-    align-items: center;
-    margin-left: 50px;
+    text-align: center;
+    /*display: flex;*/
+}
+
+.parallax2 {
+    height: 80%;
+    background-image: url('images/beach-clouds-dawn-139975.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #000000;
+    text-align: center;
+    /*display: flex;*/
+}
+
+input[type=text] {
+    width: 50%;
 }
