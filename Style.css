@@ -1,5 +1,7 @@
 body {
-    background-color: lightblue;
+    background-image: url('images/abstract-art-artistic-1103970.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .navbar-dark .navbar-nav .active>.nav-link{
@@ -38,8 +40,7 @@ p {
 }
 
 .parallax1 {
-    height: 80%;
-    background-image: url('images/clouds-cold-dark-540518.jpg');
+    background-image: url('images/cobblestone-earth-surface-granite-1029604.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -49,7 +50,6 @@ p {
 }
 
 .parallax2 {
-    height: 80%;
     background-image: url('images/beach-clouds-dawn-139975.jpg');
     background-position: center;
     background-repeat: no-repeat;
