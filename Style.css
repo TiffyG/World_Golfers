@@ -4,11 +4,15 @@ body {
     background-repeat: no-repeat;
 }
 
-.nav-link, .navbar-brand {
+.navbar-dark .navbar-nav .active>.nav-link{
     color: #000000;
 }
 
-.navbar-brand {
+.navbar-dark .navbar-nav .nav-link {
+    color: #000000;
+}
+
+.navbar-dark .navbar-brand {
     font-size: 30px;
     color: #000000;
 }
@@ -29,4 +33,15 @@ h1 {
 p {
     font-size: 22px;
     text-align: center;
+}
+
+.parallax {
+    height: 59vw;
+    background-image: url('images/banner-1544x500.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    align-items: center;
+    margin-left: 50px;
 }
