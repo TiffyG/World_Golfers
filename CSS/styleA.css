@@ -44,24 +44,49 @@ body {
     font-size: 50px;
 }
 
+/* SECTION-1 */
+
 .heading-1 {
     margin-top: 10%;
+
 }
 
-.card-img-top {
-    margin-top: 10%;
-    width: 80%;
-    height: 50%;
+.rounded {
+    width: 100%;
+    height: 80%;
+    margin-top: 8%;
+    border: solid 3px black;
 }
 
 .para-1 {
-    margin-top: 5%;
+    margin-top: 3%;
     color: rgba(0,0,0,0.60);
 }
 
+/* END SECTION-1 */
 
+/* SECTION-2 */
+
+.card {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    background-color: rgba(142, 167, 187, 0.95);
+    border: solid 2px black;
+}
+
+.card:hover {
+    border: 1px solid;
+    box-shadow: #487498 5px 5px 10px 0;
+}
+
+/* END SECTION-2*/
 
 /* FOOTER */
+
+footer {
+    padding-top: 1%;
+    background-color: #487498;
+}
 
 .social i {
     color: #00a9a9;
