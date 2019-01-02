@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: #30b9f0 !important;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover {
+    color: #00a9a9 !important;
+}
+
+.active .nav-link {
+    color: #00a9a9 !important;
+}
+
+.site-content {
+    background-image: url("../images/leaves.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, .site-desc {
+    color: #ffffff;
+    font-family: 'Righteous';
+}
+
+.site-title {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 50px;
+}
+
+/* FOOTER */
+
+footer {
+    padding-top: 1%;
+    background-color: #487498;
+}
+
+.social i {
+    color: #00a9a9;
+    font-size: 30px;
+}
+
+/* END FOOTER*/

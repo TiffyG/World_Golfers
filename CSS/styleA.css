@@ -28,7 +28,7 @@ body {
 }
 
 .site-content {
-    background-image: url("../images/leaves.jpg");
+    background-image: url("../images/about.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -48,7 +48,7 @@ body {
 
 .heading-1 {
     margin-top: 10%;
-
+    font-family: 'Ubuntu';
 }
 
 .rounded {
@@ -63,6 +63,12 @@ body {
     color: rgba(0,0,0,0.60);
 }
 
+.head-1 {
+    font-family: 'Ubuntu';
+    color: white;
+    margin-top: 5%;
+    padding-top: 5%;
+}
 /* END SECTION-1 */
 
 /* SECTION-2 */
