@@ -43,17 +43,3 @@ body {
     margin-bottom: 20%;
     font-size: 50px;
 }
-
-/* FOOTER */
-
-footer {
-    padding-top: 1%;
-    background-color: #487498;
-}
-
-.social i {
-    color: #00a9a9;
-    font-size: 30px;
-}
-
-/* END FOOTER*/

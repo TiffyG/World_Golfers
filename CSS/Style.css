@@ -166,20 +166,6 @@ body {
 
 /* END SECTION-4 */
 
-/* FOOTER */
-
-footer {
-    padding-top: 1%;
-    background-color: #487498;
-}
-
-.social i {
-    color: #00a9a9;
-    font-size: 30px;
-}
-
-/* END FOOTER*/
-
 /* MEDIA QUERIES*/
 
 @media screen and (max-width: 1198px) {
