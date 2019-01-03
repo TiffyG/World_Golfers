@@ -28,13 +28,13 @@ body {
 }
 
 .site-content {
-    background-image: url("../images/golf.jpg");
+    background-image: url("../images/nature.jpg");
     background-attachment: fixed;
     background-size: cover;
 }
 
 .site-title, .site-desc {
-    color: #ffffff;
+    color: #000000;
     font-family: 'Righteous';
 }
 
@@ -45,24 +45,30 @@ body {
 }
 
 .site-btn1 {
-    margin-left: 20%;
+    margin-left: 10%;
     background-color: black;
     color: white;
 }
 
 .site-btn2 {
     background-color: white;
+    margin-left: 10%;
 }
 
 .site-btn1, .site-btn2 {
     margin-top: 5%;
-    margin-bottom: 40%;
+}
+
+.d-flex .flex-row {
+    margin-bottom: 10%;
 }
 
 /* SECTION-1 */
 
-.section-1 .heading-1 {
-    margin-top: 8%;
+.section-1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.95);
 }
 
 .section-1 .heading-2 {
@@ -170,7 +176,7 @@ body {
 
 @media screen and (max-width: 1198px) {
     .section-1 .card {
-        width: 20rem;
+        width: 18rem;
     }
 
     .section-4 .col-md-7 img {
@@ -191,9 +197,73 @@ body {
 @media screen and (max-width: 730px) {
     .section-1 .card {
         width: 30rem;
+        margin-top: 5%;
+        margin-left: 5%;
     }
 
     .section-4 .col-md-7 img {
         width: 500px;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .section-1 .card {
+        width: 30rem;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .section-4 .col-md-7 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    .site-title, .site-desc{
+        margin-left: 10%;
+    }
+
+    .section-1 .card {
+        width: 20rem;
+        margin-left: 13%;
+    }
+
+    .section-4 .col-md-7 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+
+    .site-title, .site-desc{
+        margin-left: 10%;
+    }
+
+    .section-1 .card {
+        width: 20rem;
+        margin-left: 5%;
+    }
+
+    .section-4 .col-md-7 img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .site-title, .site-desc{
+        margin-left: 10%;
+    }
+
+    .section-1 .card {
+        width: 16rem;
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+
+    .section-4 .col-md-7 img {
+        width: 100%;
+    }
+}
+
