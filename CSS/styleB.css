@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato';
+}
+
+.navbar-brand {
+    font-family: 'Pacifico';
+    font-size: 35px;
+    color: #30b9f0 !important;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+
+.nav-link:hover {
+    color: #00a9a9 !important;
+}
+
+.active .nav-link {
+    color: #00a9a9 !important;
+}
+
+.site-content {
+    background-image: url("../images/blog.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.site-title, .site-desc {
+    color: #000000;
+    font-family: 'Righteous';
+}
+
+.site-title {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    font-size: 50px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Add a gray background color with some padding */
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: #f1f1f1;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 70%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 30%;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    /*padding: 20px;*/
+}
+
+/* Add a card effect for articles */
+.card {
+    background-color: #8ea7bb;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 3px solid black;
+}
+
+.card-p {
+    border: 3px solid black;
+    margin-top: 7%;
+}
+
+.w3-padding-16 {
+    background-color: #8ea7bb;
+    padding-right: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn {
+        width: 100%;
+        height: 100%;
+    }
+
+    .rightcolumn {
+        padding-bottom: 20px;
+    }
+
+}
