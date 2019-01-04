@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
 
 body {
-    padding: 0;
     margin: 0;
     font-family: 'Lato';
+    padding: 20px;
+    background: #f1f1f1;
 }
 
 .navbar-brand {
     font-family: 'Pacifico';
     font-size: 35px;
-    color: #30b9f0 !important;
+    color: #487498 !important;
 }
 
 .nav-link {
@@ -86,9 +87,6 @@ body {
     color: rgba(0,0,0,0.60);
 }
 
-.section-1 {
-    margin-bottom: 8%;
-}
 
 .card {
     width: 20rem;
@@ -174,81 +172,6 @@ body {
 
 /* MEDIA QUERIES*/
 
-@media screen and (max-width: 1198px) {
-    .section-1 .card {
-        width: 18rem;
-    }
-
-    .section-4 .col-md-7 img {
-        width: 500px;
-    }
-}
-
-@media screen and (max-width: 956px) {
-    .section-1 .card {
-        width: 15rem;
-    }
-
-    .section-4 .col-md-7 img {
-        width: 400px;
-    }
-}
-
-@media screen and (max-width: 730px) {
-    .section-1 .card {
-        width: 30rem;
-        margin-top: 5%;
-        margin-left: 5%;
-    }
-
-    .section-4 .col-md-7 img {
-        width: 500px;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .section-1 .card {
-        width: 30rem;
-        margin-left: 5%;
-        margin-top: 5%;
-    }
-
-    .section-4 .col-md-7 img {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 414px) {
-
-    .site-title, .site-desc{
-        margin-left: 10%;
-    }
-
-    .section-1 .card {
-        width: 20rem;
-        margin-left: 13%;
-    }
-
-    .section-4 .col-md-7 img {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 375px) {
-
-    .site-title, .site-desc{
-        margin-left: 10%;
-    }
-
-    .section-1 .card {
-        width: 20rem;
-        margin-left: 5%;
-    }
-
-    .section-4 .col-md-7 img {
-        width: 100%;
-    }
-}
 
 @media screen and (max-width: 320px) {
 
@@ -257,13 +180,141 @@ body {
     }
 
     .section-1 .card {
-        width: 16rem;
+        width: 15rem;
         margin-top: 5%;
-        margin-left: 5%;
+        margin-left: 1%;
     }
 
     .section-4 .col-md-7 img {
         width: 100%;
     }
 }
+
+@media screen and (min-width: 375px) {
+
+    .site-title, .site-desc{
+    margin-left: 10%;
+    }
+
+    .section-1 .card {
+    width: 19rem;
+    margin-top: 3%;
+    }
+
+    .section-4 .col-md-7 img {
+    width: 100%;
+    }
+}
+
+@media screen and (min-width: 414px) {
+
+    .site-title, .site-desc{
+    margin-left: 10%;
+    }
+
+    .section-1 .card {
+    width: 20rem;
+    margin-left: 3%;
+    margin-top: 3%;
+    }
+
+    .section-4 .col-md-7 img {
+    width: 100%;
+    }
+}
+
+ /* XS */
+@media screen and (min-width: 575px) {
+    .section-1 .card {
+        width: 30rem;
+    }
+
+    .section-4 .col-md-7 img {
+        width: 100%;
+    }
+}
+
+/* SM */
+@media screen and (min-width: 768px) {
+    .section-1 .card {
+    width: 13rem;
+    }
+
+    .section-4 .col-md-7 img {
+    width: 100%;
+    }
+}
+
+/* MD */
+@media screen and (min-width: 992px) {
+    .section-1 .card {
+        width: 18rem;
+    }
+
+    .section-4 .col-md-7 img {
+        width: 100%;
+    }
+}
+
+/* LG */
+@media screen and (min-width: 1200px) {
+    .section-1 .card {
+        width: 22rem;
+    }
+
+    .section-4 .col-md-7 img {
+        width: 100%;
+    }
+}
+
+/*@media screen and (max-width: 1198px) {*/
+    /*.section-1 .card {*/
+        /*width: 18rem;*/
+    /*}*/
+
+    /*.section-4 .col-md-7 img {*/
+        /*width: 500px;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 956px) {*/
+    /*.section-1 .card {*/
+        /*width: 15rem;*/
+    /*}*/
+
+    /*.section-4 .col-md-7 img {*/
+        /*width: 400px;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 768px) {*/
+    /*.section-1 .card {*/
+        /*width: 13rem;*/
+        /*margin-top: 5%;*/
+    /*}*/
+
+    /*.section-4 .col-md-7 img {*/
+        /*width: 500px;*/
+    /*}*/
+/*}*/
+
+/*@media screen and (max-width: 730px) {*/
+    /*.section-1 .card {*/
+        /*width: 30rem;*/
+        /*margin-top: 5%;*/
+        /*margin-left: 5%;*/
+    /*}*/
+
+    /*.section-4 .col-md-7 img {*/
+        /*width: 500px;*/
+    /*}*/
+/*}*/
+
+
+
+
+
+
+
+
 

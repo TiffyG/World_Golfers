@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
 
 body {
-    padding: 0;
     margin: 0;
     font-family: 'Lato';
+    padding: 20px;
+    background: #f1f1f1;
 }
 
 .navbar-brand {
     font-family: 'Pacifico';
     font-size: 35px;
-    color: #30b9f0 !important;
+    color: #487498 !important;
 }
 
 .nav-link {
@@ -44,7 +45,13 @@ body {
     font-size: 50px;
 }
 
+
 /* SECTION-1 */
+
+.section-1 {
+    padding-bottom: 0;
+    margin-top: 3%;
+}
 
 .heading-1 {
     margin-top: 10%;
